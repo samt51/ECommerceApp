@@ -7,6 +7,7 @@
         public DateTime? ModifyDate { get; set; }
         public bool IsDeleted { get; set; }
 
+        public int asd { get; set; }
 
 
     }
