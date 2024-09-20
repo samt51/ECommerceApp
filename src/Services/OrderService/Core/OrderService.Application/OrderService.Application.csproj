@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Commands\DeleteOrder\" />
+    <Folder Include="Features\Commands\UpdateOrder\" />
+    <Folder Include="Features\Queries\GetAllOrder\" />
+    <Folder Include="Features\Queries\GetByIdOrder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Shared\ECommerce.Shared\ECommerce.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

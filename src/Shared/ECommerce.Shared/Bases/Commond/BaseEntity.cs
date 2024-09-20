@@ -1,4 +1,4 @@
-﻿namespace ECommerce.Shared.Commond
+﻿namespace ECommerce.Shared.Bases.Commond
 {
     public abstract class BaseEntity
     {
