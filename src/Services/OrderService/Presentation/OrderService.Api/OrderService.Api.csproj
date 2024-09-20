@@ -10,8 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Shared\ECommerce.Shared\ECommerce.Shared.csproj" />
+    <ProjectReference Include="..\..\Core\OrderService.Application\OrderService.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\OrderService.Persistence\OrderService.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
